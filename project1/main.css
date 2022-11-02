@@ -1,0 +1,48 @@
+body {
+    background: var(--bg);
+    color: var(--fontColor);
+    font-family: helvetica;
+  }
+
+ul {
+    font-family: helvetica;
+}
+li {
+    list-style: circle;
+  }
+  
+  .list {
+    list-style: square;
+  }
+  
+  #msg {
+    font-family: monospace;
+    }
+    .light-theme {
+        color: #312f2f;
+        background: hsl(180, 100%, 50%);;
+        --btnBg: var(--grey);
+        --btnFontColor: var(--white);
+      }
+      .dark-theme {
+        --bg: var(--grey);
+        --fontColor: var(--blue);
+        --btnBg: var(--white);
+        --btnFontColor: var(--grey);
+      }
+      :root {
+        --blue: hsl(180, 100%, 50%);
+        --white: #FFFFFF;
+        --grey: #312f2f;
+      }
+      .btn {
+        position: absolute;
+        top: 20px;
+        right: 250px;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        border: none;
+        color: var(--btnFontColor);
+        background-color: var(--btnBg);
+      }
